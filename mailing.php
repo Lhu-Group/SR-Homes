@@ -14,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 
   // Email content
-  $to = "sumedhwairagade@lhu-group.com";  // ← Change to your real email
-  $subject = "New Contact Form Submission";
+  $to = "sumedhwairagade@lhu-group.com";
+  $subject = "SR Homes Contact Form Submission";
   $email_content = "Name: $name\n";
   $email_content .= "Email: $email\n";
   $email_content .= "Phone: $phone\n\n";
